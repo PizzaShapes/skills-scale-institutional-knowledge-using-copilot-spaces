@@ -22,6 +22,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- The **QA Lead** owns the overall test strategy, defines quality gates, and coordinates test execution across the team to ensure release readiness
+
+## CI & Deployment
+- CI pipelines (configured and maintained by the **DevOps Engineer**) run automated tests, linting, and security scans on every PR
+- Deployment automation and infrastructure are owned by the DevOps Engineer, who supports both routine releases and rapid incident response
 
 ## Reporting & Metrics
 - Track velocity and burndown
